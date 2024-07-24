@@ -171,7 +171,7 @@ let
 
   nsight_compute_version = "2022.2.1";
   cudaPackages = {
-    cuda_cccl = buildFromSourcePackage { name = "cuda-thrust"; };
+    cuda_cccl = buildFromSourcePackage { name = "cuda-cccl"; };
     cuda_cudart = buildFromSourcePackage {
       name = "cuda-cudart";
       preFixup = ''
